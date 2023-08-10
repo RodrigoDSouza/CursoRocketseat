@@ -44,7 +44,8 @@ body * {
   color: var(--text-color);
 }
 #container {
-  width: 360px; /*largura*/
+  width: 100%; /*largura*/
+  max-width: 580px; /*até que ele alcance 580px*/
   /*height: 712px; altura*/
   /*border: 1px solid red; borda*/
   /*margin-right: auto;  margem a direita*/
